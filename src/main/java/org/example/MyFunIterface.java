@@ -1,3 +1,5 @@
+package org.example;
+
 @FunctionalInterface
 public interface MyFunIterface {
 
@@ -5,5 +7,7 @@ public interface MyFunIterface {
 
     public static void hello(){};
 
-   default void sayHello(){};
+   default void sayHello(){
+       System.out.println("Say Hello Avadhut");
+   };
 }
